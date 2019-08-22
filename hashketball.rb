@@ -213,5 +213,5 @@ def winning_team
     end  
       winner[:team_stats[:team_name]] = total_points
     end
-    winner.
+    winner.key()
 end
