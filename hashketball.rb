@@ -211,6 +211,6 @@ def winning_team
     team_stats[:players].each do |name|
       total_points += name[:points]
     end  
-      winner[:team_stats[:team_name]]
-  end
+      winner[:team_stats[:team_name]] = total_points
+    end
 end
