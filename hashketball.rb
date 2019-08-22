@@ -210,6 +210,6 @@ def winning_team
     team_stats[:players].each do |name|
       total_points += name[:points]
     end  
-    
+      
   end
 end
