@@ -243,13 +243,9 @@ def long_name_steals_a_ton
         name_length = name[:player_name].length
         longest_name_player = name[:player_name]
       end
-    end
-  end
-  game_hash.values.each do |team_stats|
-    team_stats[:players].each do |name|
       if name[:steals] > most_steals
-        most_steals = name[:steals]
-        stealer = name[:player_name]
+      most_steals = name[:steals]
+      stealer = name[:player_name]
       end
     end
   end
